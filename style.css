@@ -1,0 +1,51 @@
+
+
+.h1{
+    justify-content: center;
+    position: absolute;
+    top: 300px;
+    left: 40px;
+    border-style: dotted;
+    border-color: black;
+    background-color: yellow;
+   
+    
+}
+
+#Apple{
+    justify-content: center;
+}
+
+.Milk{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    right: 750px;
+}
+
+.h2{
+    position: absolute;
+    right: 800px;
+    top: 300px;
+    border-style: dotted;
+    background-color: yellow;
+}
+
+.Orangejuice{
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    right: 400px;
+}
+
+.h3{
+    position: absolute;
+    right:400px;
+    top: 300px;
+    border-style: dotted;
+    background-color: yellow;
+}
+
+.div1{
+    background-color: blue;
+}
