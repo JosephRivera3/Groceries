@@ -1,26 +1,54 @@
 
-
 .h1{
-    justify-content: center;
     position: absolute;
     top: 300px;
-    left: 40px;
+    left: 53px;
     border-style: dotted;
     border-color: black;
     background-color: yellow;
-   
-    
+    width: 150px;
+    transition: 3s;
+    animation-name: colorswitch ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
-#Apple{
-    justify-content: center;
+@keyframes colorswitch {
+    from {background-color: blue}
+    to {background-color: red;}
+}
+
+.Apple{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 25px;
+    bottom:400px;
+    border-radius: 60px;
+    background-color: blue;
+    padding: 30px;
+    transition: 3s;
+}
+.Apple:hover{
+    width: 300px;
+    height: 300px;
 }
 
 .Milk{
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     position: absolute;
-    right: 750px;
+    right: 770px;
+    bottom: 400px;
+    border-radius: 20px;
+    background-color: blue;
+    padding: 30px;
+    transition: 3s;
+}
+
+.Milk:hover {
+    width: 300px;
+    height: 300px;
 }
 
 .h2{
@@ -29,23 +57,76 @@
     top: 300px;
     border-style: dotted;
     background-color: yellow;
+    width: 150px;
+    transition: 3s;
+    animation-name: colorswitch ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
-.Orangejuice{
-    width: 300px;
-    height: 250px;
+
+.Juice{
+    width: 200px;
+    height: 150px;
     position: absolute;
-    right: 400px;
+    right: 410px;
+    bottom: 400px;
+    border-radius: 20px;
+    background-color: blue;
+    padding: 30px;
+    transition: 3s;
+}
+
+.Juice:hover {
+    width: 300px;
+    height: 300px;
 }
 
 .h3{
     position: absolute;
-    right:400px;
+    right:460px;
     top: 300px;
     border-style: dotted;
     background-color: yellow;
+    width: 150px;
+    transition: 3s;
+    animation-name: colorswitch ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
-.div1{
-    background-color: blue;
+h1:hover{
+    background-color: darkgreen;
+    width: 100px;
+    color: lime;
+}
+
+h2:hover{
+    background-color: darkgreen;
+    width: 100px;
+    color: lime;
+}
+
+h3:hover{
+    background-color: darkgreen;
+    width: 100px;
+    color: lime;
+}
+
+.link1{
+    position: absolute;
+    right: 1160px;
+    bottom: 270px;
+}
+
+.link2{
+    position: absolute;
+    right: 820px;
+    bottom: 270px;
+}
+
+.link3{
+    position: absolute;
+    right: 480px;
+    bottom: 270px;
 }
